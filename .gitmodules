@@ -1,0 +1,3 @@
+[submodule ".home/.zsh/arca"]
+	path = .home/.zsh/arca
+	url = https://github.com/arcadia-moon/arca

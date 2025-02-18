@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  ubuntu:
+    build: .
+    tty: true
+    container_name: ubuntu
+    volumes:
+      - .data:/data
+      - .home/.zsh:/root/.zsh
+      - .home/.zshrc:/root/.zshrc
